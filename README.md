@@ -11,7 +11,7 @@ Unlike traditional version control systems, CPGit is tailored for competitive pr
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/CPGit.git
+git clone https://github.com/Devansh-ops-maker/CPGit.git
 cd CPGit
 ```
 
