@@ -1,0 +1,1 @@
+CREATE INDEX tracked_files_file_id_idx ON cpg.tracked_files (file_id);
