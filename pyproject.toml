@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpg"
+version = "1.0.0"
+description = "Competitive Programming Version Control System"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "cassandra-driver",
+    "curl-cffi",
+    "google-genai"
+]
+
+[project.scripts]
+cpg = "cpg.cli:main"
